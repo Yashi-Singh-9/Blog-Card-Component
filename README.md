@@ -1,4 +1,12 @@
 # Blog Card Component
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Design-4CAF50?style=for-the-badge)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![FrontendPro](https://img.shields.io/badge/Challenge-FrontendPro-blue?style=for-the-badge)
+![GitLab](https://img.shields.io/badge/GitLab-Repository-FCA121?style=for-the-badge&logo=gitlab)
+![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Open%20Sans%20%7C%20Roboto-4285F4?style=for-the-badge)
+
 
 This repository contains the code for a Blog Card Component, which is a responsive and interactive UI element designed to showcase a blog post with an image, title, category, description, and user details. This project is inspired by a challenge provided by [FrontendPro](https://www.frontendpro.dev/frontend-coding-challenges/blog-card-component-bBI5CtACFbEmwqF4LHJU).
 
