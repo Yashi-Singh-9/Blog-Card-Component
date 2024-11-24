@@ -31,11 +31,11 @@ This repository contains the code for a Blog Card Component, which is a responsi
 
 1. Clone the repository:
    ```bash
-   git clone https://gitlab.com/Yashi-Singh-9/blog-card-component.git
+   git clone https://github.com/Yashi-Singh-9/Blog-Card-Component.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd blog-card-component
+   cd Blog-Card-Component
    ```
 3. Open `index.html` in your browser to view the Blog Card Component.
 
