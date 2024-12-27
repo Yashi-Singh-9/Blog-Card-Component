@@ -1,48 +1,113 @@
 # Blog Card Component
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Responsive](https://img.shields.io/badge/Responsive-Design-4CAF50?style=for-the-badge)
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![FrontendPro](https://img.shields.io/badge/Challenge-FrontendPro-blue?style=for-the-badge)
-![GitLab](https://img.shields.io/badge/GitLab-Repository-FCA121?style=for-the-badge&logo=gitlab)
-![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Open%20Sans%20%7C%20Roboto-4285F4?style=for-the-badge)
 
+A visually appealing and responsive **Blog Card Component** designed to showcase blog posts with essential information such as title, category, author details, and more. This project was completed as part of a challenge on the FrontendPro platform.
 
-This repository contains the code for a Blog Card Component, which is a responsive and interactive UI element designed to showcase a blog post with an image, title, category, description, and user details. This project is inspired by a challenge provided by [FrontendPro](https://www.frontendpro.dev/frontend-coding-challenges/blog-card-component-bBI5CtACFbEmwqF4LHJU).
+## 🛠️ Technologies Used
 
-## Demo
+- **HTML5**: Semantic and accessible structure for the component.
+- **SCSS**: Modern styling with reusable variables and mixins for maintainable and modular CSS.
+- **Bootstrap 5**: For layout and responsive utilities.
+- **Google Fonts**: Open Sans for elegant typography.
 
-![Blog Card Component](Preview.png)
+## 🎨 Features
 
-## Features
+- **Responsive Design**: The card adapts seamlessly to various screen sizes using SCSS media queries and Bootstrap utilities.
+- **Dynamic Styling**: Hover effects and transitions for interactive elements such as the category badge.
+- **Clean UI/UX**: Simple yet functional layout with an emphasis on readability and aesthetic appeal.
 
-- **Responsive Design**: The card is designed to be fully responsive and adjusts gracefully across different screen sizes.
-- **Hover Effect**: The card elevates and casts a shadow on hover, providing a subtle interaction effect.
-- **Category Tag**: The category of the blog is prominently displayed at the top with a distinctive background color.
-- **User Details**: Displays the author's profile image, name, and the time since the blog was posted.
+## 📂 Folder Structure
 
-## Technologies Used
+```
+.
+├── design/                 # Assets such as images and icons
+│   ├── icon.svg
+│   ├── office-setup.jpg
+│   └── user-image.png
+├── index.html              # Main HTML file
+├── styles.css              # Compiled CSS from SCSS
+├── styles.css.map          # Source Map file   
+├── styles.scss             # SCSS source file
+└── README.md               # Project documentation
+```
 
-- **HTML5**: For the structure of the component.
-- **CSS3**: For styling the component, including responsive design and hover effects.
-- **Google Fonts**: The card uses the "Open Sans" and "Roboto" fonts to enhance the typography.
+## 🚀 Live Demo
 
-## How to Use
+Check out the live demo of the component here: [Blog Card Component](https://yashi-singh-9.github.io/Blog-Card-Component/)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Yashi-Singh-9/Blog-Card-Component.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Blog-Card-Component
-   ```
-3. Open `index.html` in your browser to view the Blog Card Component.
+## 🖼️ Preview
 
-## Credits
+**Desktop Design**
+![Blog Card Component](design/Desktop-Design.png)  
 
-This project is based on the Blog Card Component challenge from [FrontendPro](https://www.frontendpro.dev/frontend-coding-challenges/blog-card-component-bBI5CtACFbEmwqF4LHJU). Special thanks to them for providing the challenge and inspiration.
+**Mobile Design**
 
-## License
+<img src="design/Mobile-Design.png" height="850">
 
-This project is licensed under the MIT License. See the [LICENSE](MIT LICENSE) file for more details.
+*A clean and modern blog card component with responsive features.*
+
+## 🔧 Installation and SCSS Compilation
+
+Follow these steps to set up the project and compile SCSS:
+
+### 1. Clone the Repository
+
+Clone the project repository from GitHub:
+
+```bash
+git clone https://github.com/Yashi-Singh-9/Blog-Card-Component.git
+```
+
+### 2. Install SCSS Compiler (if not already installed)
+
+To compile SCSS into CSS, you need to install a SCSS compiler. The recommended tool is `Sass`. Install it globally using npm:
+
+```bash
+npm install -g sass
+```
+
+### 3. Compile SCSS to CSS
+
+Navigate to the project folder and run the following command to compile the SCSS file into CSS:
+
+```bash
+sass styles.scss styles.css
+```
+
+This will generate the `styles.css` file in the root directory.
+
+### 4. Watch for SCSS Changes (Optional)
+
+To automatically recompile SCSS whenever you make changes, use the `--watch` flag:
+
+```bash
+sass --watch styles.scss:styles.css
+```
+
+This will monitor the `styles.scss` file for changes and regenerate `styles.css` on every save.
+
+### 5. Open the Project
+
+After compiling the SCSS, open the `index.html` file in your browser to view the blog card component.
+
+---
+
+## 🌟 Challenge Details
+
+This project was completed as part of a FrontendPro platform challenge. The goal was to build a responsive blog card component with the following requirements:
+- Include an image, title, category badge, description, and author details.
+- Style it with SCSS and incorporate responsive design principles.
+- Use a professional font and minimalistic design.
+
+## ✨ Improvements Made
+
+- Enhanced responsiveness with SCSS media queries.
+- Added hover effects for interactivity.
+- Optimized layout with Bootstrap utilities for quick and clean alignment.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you find a bug or have an idea to improve the component, feel free to open an issue or submit a pull request. For Contribution Steps please visit [Contributing File](CONTRIBUTING.md)
+
+## 📄 License
+
+This project is open source and available under the MIT License. Feel free to use and adapt it as needed.

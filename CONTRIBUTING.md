@@ -13,7 +13,7 @@ Start by forking the repository. This will create a copy of the project under yo
 Clone your forked repository to your local machine:
 
 ```bash
-git clone https://gitlab.com/YOUR_USERNAME/blog-card-component.git
+git clone https://github.com/Yashi-Singh-9/Blog-Card-Component.git
 ```
 
 ### 3. Create a New Branch
@@ -48,12 +48,6 @@ git push origin your-feature-branch
 ## Reporting Issues
 
 If you find a bug or have a feature request, please open an issue on GitLab. Provide as much detail as possible to help us understand and address the issue.
-
-## Style Guide
-
-- **HTML**: Follow semantic HTML5 practices.
-- **CSS**: Use consistent naming conventions and ensure your styles are responsive and cross-browser compatible.
-- **Commit Messages**: Write clear and descriptive commit messages in the present tense. For example, "Add hover effect to blog card" instead of "Added hover effect."
 
 ## Thank You!
 
